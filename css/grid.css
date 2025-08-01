@@ -1,0 +1,497 @@
+/* --------------------------------------------------
+BASE
+-------------------------------------------------- */
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Open Sans", Meiryo, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.MenuIcon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.MenuIcon span {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.MenuIcon {
+  flex-direction: row;
+}
+
+
+
+/* --------------------------------------------------
+CUSTOM
+-------------------------------------------------- */
+
+.Main {
+  background: url(../img/main.jpg) center center/cover no-repeat;
+  height: 50vh;
+  padding-bottom: 45%;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main__title {
+  color: #fff;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  width: 100%;
+}
+
+.Main__subTitle {
+  font-size: 1.5rem;
+  top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+.Main__sub {
+  margin-bottom: 1.5rem;
+}
+
+.Main__mainTitle {
+  font-weight: 200;
+}
+
+@media screen and (max-width: 600px) {
+  .Main__subTitle {
+    font-size: 4vw;
+  }
+}
+
+.Main__mainTitle {
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Main__mainTitle {
+    font-size: 10vw;
+  }
+}
+
+.Header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Header__inner {
+  padding: 1.5rem 0 .5rem;
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header__inner {
+    width: 85%;
+  }
+}
+
+.Header__title {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.Header__sns {
+  width: 30px;
+  -webkit-transition: .2s, ease-in;
+  -o-transition: .2s, ease-in;
+  transition: .2s, ease-in;
+}
+
+.Header__sns:hover {
+  opacity: .65;
+}
+
+.Section {
+  padding: 10rem 0;
+}
+
+.Section__title {
+  color: #5FC9B0;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  margin: 0 auto 4rem;
+}
+
+.Section__title:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #5FC9B0;
+  border-radius: 2px;
+}
+
+.Section__memberName {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+
+/* --------------------------------------------------
+ABOUT
+-------------------------------------------------- */
+.About {
+  background-color: #ffffff;
+}
+
+.About__inner {
+  padding: 1.5rem 0 .5rem;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .About__inner {
+    width: 85%;
+  }
+}
+
+.About__message {
+  color: #545A57;
+  text-align: center;
+  line-height: 3;
+}
+/* -----------------------------
+----------------------------- */
+
+
+/* -----------------------------
+虫食いセクション ①
+----------------------------- */
+
+/* --------------------------------------------------
+.SEMINAR
+-------------------------------------------------- */
+
+
+/* -----------------------------
+----------------------------- */
+
+
+
+/* -----------------------------
+虫食いセクション ②
+----------------------------- */
+
+
+/* --------------------------------------------------
+GALLERY
+-------------------------------------------------- */
+
+
+/* -----------------------------
+----------------------------- */
+
+/* --------------------------------------------------
+FOOTER
+-------------------------------------------------- */
+
+.Footer {
+  background-color: #272E2B;
+}
+
+.Footer__inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.Footer__inner p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .Footer__inner {
+    width: 85%;
+  }
+}
+
+.Seminar {
+  background-color: #fff;
+}
+
+.Seminar__text {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  position: relative;
+  top: -20px;
+  left: -70px;
+  font-weight: 300;
+}
+
+.Seminar__inner {
+  background-color: #EFFFFA;
+  width: 85%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+}
+.Seminar__grid {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.Seminar__item {
+  background-color: cover;
+  padding: 2rem;
+  text-align: center;
+  height:190px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Seminar__item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* 半透明の黒 */
+  z-index: 0;
+}
+
+.Seminar__item::after {
+  content: attr(data-title); /* テキスト表示用（必要なら） */
+  position: relative;
+  z-index: 1;
+}
+
+.Seminar__item:nth-child(1) {
+  background-image: url(../img/seminar1.jpg);
+}
+.Seminar__item:nth-child(2) {
+  background-image: url(../img/seminar2.jpg);
+}
+.Seminar__item:nth-child(3) {
+  background-image: url(../img/seminar3.jpg);
+}
+.Seminar__item:nth-child(4) {
+  background-image: url(../img/seminar4.jpg);
+}
+.Seminar__item:nth-child(5) {
+  background-image: url(../img/seminar5.jpg);
+}
+
+.About {
+  background-color: #ffffff;
+}
+
+.About__inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .Seminar__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .About__inner {
+    width: 85%;
+  }
+}
+
+.About__message {
+  color: #545A57;
+  text-align: center;
+  line-height: ;
+
+}
+
+.Gallery {
+  background-color: #fff;
+}
+
+.Gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 100px;
+  gap: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.Gallery__item {
+  position: relative;
+  overflow: hidden;
+}
+
+.Gallery__item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.Gallery__item--wide {
+  grid-row: span 2;
+}
+
+.Gallery__item--big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .Main {
+    height: auto;
+    padding-bottom: 100%;
+  }
+
+  .Main__title {
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Main__mainTitle {
+    font-size: 3rem;
+  }
+  .Main__subTitle {
+    font-size: 1.2rem;
+  }
+
+  .Gallery__grid {
+    max-width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .Main {
+    height: 150vh;
+    padding-bottom: 100%;
+  }
+
+  .Gallery__grid {
+    grid-template-columns: repeat(2, 1fr); 
+    width: 90%;                            
+    padding: 1.5rem 0;                     
+    gap: 10px;                             
+    margin: 0 auto;                        
+  }
+
+  .Gallery__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .Gallery__item--big {
+    grid-column: span 2;
+    grid-row: span 1; 
+  }
+
+  .Gallery__item--wide {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .section {
+    padding: 40px 16px; 
+  }
+
+  .Section__title {
+    text-align: center;
+    font-size: 20px; 
+    margin-bottom: 24px;
+  }
+
+  .Section__title::before {
+    bottom: -10px;
+    height: 3px;
+    width: 40px;
+  }
+
+  .Seminar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .Seminar__item{
+    width: 100%;
+    height: 300px;
+    font-size: 1rem;
+  }
+
+  .Seminar__grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  .Seminar__item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
